@@ -1,0 +1,1 @@
+[('standardscaler', StandardScaler()), ('svr', SVR(C=40986349.87514764, degree=7, gamma='auto', kernel='precomputed'))]

@@ -1,0 +1,4 @@
+NumericalPreprocessingPipeline({'imputation:strategy': 'mean', 'rescaling:__choice__': 'standardize'},
+dataset_properties={
+  'sparse': False,
+  'signed': False})

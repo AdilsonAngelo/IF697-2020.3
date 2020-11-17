@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/04a3e6704efa4b7b86c65dfd1c64d000/artifacts
+end_time: 1605593859311
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+name: ''
+run_id: 04a3e6704efa4b7b86c65dfd1c64d000
+run_uuid: 04a3e6704efa4b7b86c65dfd1c64d000
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1605593859223
+status: 3
+tags: []
+user_id: adilson

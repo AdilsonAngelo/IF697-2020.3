@@ -1,0 +1,3 @@
+Configuration:
+  imputation:strategy, Value: 'mean'
+  rescaling:__choice__, Value: 'standardize'

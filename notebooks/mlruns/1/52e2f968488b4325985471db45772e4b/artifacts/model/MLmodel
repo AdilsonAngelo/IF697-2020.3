@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.0
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+run_id: 52e2f968488b4325985471db45772e4b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}, {"type": "double"}, {"type": "double"},
+    {"type": "double"}, {"type": "double"}]'
+  outputs: '[{"type": "double"}]'
+utc_time_created: '2020-11-17 03:10:47.352888'
