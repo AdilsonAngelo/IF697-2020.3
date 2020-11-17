@@ -1,0 +1,6 @@
+Pipeline(memory=None,
+         steps=[('standardscaler',
+                 StandardScaler(copy=True, with_mean=True, with_std=True)),
+                ('svr',
+                 SVR(C=0.061688259325117706, cache_size=200, coef0=0.0,
+                  ...
